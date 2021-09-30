@@ -65,6 +65,12 @@ body{
     .center .entry{
         display: flex; 
     }
+    .get-start-btn button{
+        font-size: 4rem;
+        width: 600px;
+        height: 100px;
+        font-weight: 400;
+    }
 }
 .logo{
     width: 40%;
