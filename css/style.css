@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--ff-main);
+}
+:root{
+    --ff-main : 'Overlock SC';
+    --ff-secndary: 'Marvel';
+    --ff-therd: 'Playfair Display';
+    --clr-black: #000;
+    --clr-s: #303030;
+    --clr-th: #ffe3f1;
+    --clr-fr: #00c9c8;
+}
+.navbar{
+    position: absolute;
+    left: 10%;
+    height: 90px;
+    width: 80%;
+    /*background:var(--clr-fr);*/
+    border-radius: 60px;
+    padding-left: 30px;
+    margin: 30px;
+}
+@media (max-width:1016px){
+    *{
+        box-sizing: border-box;
+    }
+    .navbar{
+        position: absolute;
+        left: 10%;
+        height: 5rem;
+        width: 80%;
+        /*background:var(--clr-fr);*/
+    }
+    .logo{
+        width: 100%;
+    }
+    .logo h1{
+        width: 100%;
+        height: 40px;
+        text-align: center;
+        font-size: 5em;
+    }
+    .log-reg{
+        display: none;
+    }
+    .center .entry-word h1{
+        color: var(--clr-th);
+        padding-bottom: 5px;
+        font-family: var(--ff-therd);
+        font-size: 5rem;
+        font-weight: 300;
+        font-style: italic;
+    }
+    .center{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .center .entry{
+        display: flex; 
+    }
+}
+.logo{
+    width: 40%;
+    height: 40px;
+    font-size: 20px;
+    margin: 20px;
+    font-family: var(--ff-main);
+    display: inline-grid;
+}
+.logo h1{
+    width: 280px;
+    color: var(--clr-th);
+}
+.log-reg{
+	width: 40%;
+    height: auto;
+}
+.log-reg ul{
+    position: absolute;
+    bottom: 37%;
+    left: 70%;
+}
+.log-reg li{
+    margin-top: 10px;
+    line-height: 25px;
+    text-align: center;
+    color: var(--clr-th);
+    font-size: 30px;
+    list-style: none;
+    display: inline-flex ;
+}
+.log-reg li a{
+    text-decoration: none;
+    color: var(--clr-th);
+    line-height: 10;
+    width: 120px;
+    height: 40px;
+}
+.log-reg ul li a:hover{
+    border-bottom: 2px solid var(--clr-th) ;
+    cursor: pointer;
+}
+.baner{
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    background-image: url(../img/img-1.jpg);
+	background-position: center center;
+	background-size: cover;
+	height: 100vh;
+    float: right;
+    
+}
+.blur{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(230deg,rgb(4, 0, 255), #00ffea);
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+    
+}
+.center .entry{
+    display: grid;
+    place-items: center;
+  
+}
+.center .entry-word{
+    color: var(--clr-th);
+    padding-bottom: 5px;
+    font-family: var(--ff-therd);
+    font-size: 100%;
+    font-weight: 300;
+    font-style: italic;
+}
+.get-start-btn button{
+    margin-top: 30px;
+    background: none;
+    border: 3px solid var(--clr-fr);
+    border-radius: 60px;
+    color: var(--clr-th);
+    font-family: 'Marvel';
+    font-size: 30px;
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.get-start-btn button:hover{
+    background: var(--clr-fr);
+    color: var(--clr-th);
+    cursor: pointer;
+}

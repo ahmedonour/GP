@@ -1,0 +1,94 @@
+:root{
+    --ff-praimry: 'Marvel';
+    --ff-scendery: 'Overlock SC';
+    --clr-praimry: #fff;
+    --clr-black: rgba(0, 0, 0, 0.7);
+    --clr-royal: #405DE6;
+}
+body,
+h1,
+h2,
+p
+{
+    margin: 0;  
+    box-sizing: border-box;
+}
+h1,h2,h3{
+    font-family: var(--ff-scendery);
+    font-weight: 900;
+    line-height: 1;
+    color: var(--clr-praimry);
+}
+body{
+    background-image:linear-gradient(180deg, #00ffea, rgb(4, 0, 255));
+   /* background-image: url(../img/img-0.jpg);*/
+	background-position: center center;
+	background-size: cover;
+    background-repeat: no-repeat;
+	height: 100vh;
+}
+.bg-black{
+    height: 100%;
+    background: #002c276e;
+}
+.login-form{
+    display: grid;
+    place-items: center;
+    line-height: 3;
+    padding: 5rem;
+}
+.inbut-field{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem;
+    max-width: 100%;
+}
+input{
+    min-width: 100%;
+    margin: 1rem;
+    padding: .5rem;
+    font-family: var(--ff-scendery);
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 2rem;
+    text-align: center;
+}
+.forget-password{
+    font-family: var(--ff-scendery);
+    font-size: 1.2rem;
+}
+.forget-password a{
+    text-decoration: none;
+    color: yellow;
+}
+.login-button{
+    min-width: 10rem;
+    min-height: 1rem;
+}
+.login-button button{
+    min-width: 100%;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    font-family: var(--ff-scendery);
+    background: none;
+    border-radius: 60px;
+    border: 2px solid yellow;
+    color: yellow;
+}
+.login-button button:hover{
+    color: rgb(0, 0, 0);
+    background: yellow;
+    cursor: pointer;
+    pointer-events: visibleFill;
+}
+.fab{
+    font-size: 2rem;
+    padding: 1rem;
+}
+.fa-facebook-f{
+    color: var(--clr-royal);
+}
+.fa-google{
+    color: var(--clr-praimry);
+}
