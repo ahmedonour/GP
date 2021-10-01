@@ -124,6 +124,7 @@ body{
     color: var(--clr-th);
     cursor: pointer;
 }
+
 @media (max-width:1016px){
     *{
         box-sizing: border-box;
