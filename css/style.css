@@ -15,21 +15,24 @@ body{
     --clr-th: #ffe3f1;
     --clr-fr: #00c9c8;
 }
+.center-navbar{
+    display: grid;
+    place-items: center;
+}
 .navbar{
-    position: absolute;
-    left: 10%;
-    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 4rem;
     width: 80%;
-    /*background:var(--clr-fr);*/
+    background:var(--clr-fr);
     border-radius: 60px;
     padding-left: 30px;
     margin: 30px;
 }
 .logo{
-    width: 40%;
-    height: 40px;
+    margin-top: .5rem;
     font-size: 20px;
-    margin: 20px;
     font-family: var(--ff-main);
     display: inline-grid;
 }
@@ -38,33 +41,33 @@ body{
     color: var(--clr-th);
 }
 .log-reg{
+    margin-top: 1rem;
 	width: 40%;
     height: auto;
 }
 .log-reg ul{
-    position: absolute;
-    bottom: 37%;
-    left: 70%;
+    display: flex ;
 }
 .log-reg li{
-    margin-top: 10px;
-    line-height: 25px;
     text-align: center;
     color: var(--clr-th);
-    font-size: 30px;
     list-style: none;
-    display: inline-flex ;
+    width: 10rem;
 }
 .log-reg li a{
+    padding: 1rem;
     text-decoration: none;
     color: var(--clr-th);
-    line-height: 10;
-    width: 120px;
-    height: 40px;
+    font-size: clamp(1rem, 5vw, 1.5rem);
 }
 .log-reg ul li a:hover{
     border-bottom: 2px solid var(--clr-th) ;
     cursor: pointer;
+}
+@media (max-width:1640px){
+    .log-reg li a{
+        font-size: clamp(1rem, 5vw, 1.2rem);
+    }
 }
 .baner{
     width: 100%;
@@ -80,7 +83,7 @@ body{
 .blur{
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(230deg,rgb(4, 0, 255), #00ffea);
+   /* background-image: linear-gradient(230deg,rgb(4, 0, 255), #00ffea);*/
 }
 .center{
     position: absolute;
@@ -105,7 +108,7 @@ body{
 }
 .get-start-btn button{
     margin-top: 30px;
-    background: none;
+    background: var(--clr-fr);
     border: 3px solid var(--clr-fr);
     border-radius: 60px;
     color: var(--clr-th);
@@ -117,7 +120,7 @@ body{
     font-weight: 400;
 }
 .get-start-btn button:hover{
-    background: var(--clr-fr);
+    background: none;
     color: var(--clr-th);
     cursor: pointer;
 }
@@ -126,8 +129,7 @@ body{
         box-sizing: border-box;
     }
     .navbar{
-        position: absolute;
-        left: 5%;
+        margin-top: 1rem ;
         height: 5rem;
         width: 80%;
         /*background:var(--clr-fr);*/
@@ -139,7 +141,7 @@ body{
         width: 100%;
         height: 40px;
         text-align: center;
-        font-size: 5rem;
+        font-size: 3rem;
     }
     .log-reg{
         display: none;
@@ -172,15 +174,26 @@ body{
         font-weight: 400;
     }
 }
+@media (max-width: 713px) {
+    .get-start-btn button{
+        font-size: 1.8rem;
+        width: 10rem;
+        height: 4rem;
+    }
+    .logo h1{
+        font-size: clamp(2rem, 10vw , 3rem);
+    }
+}
 @media (max-width: 480px) {
     .get-start-btn button{
-        font-size: 1.4rem;
+        font-size: 2rem;
         width: 10rem;
         height: 4rem;
         font-weight: 400;
     }
     .logo h1{
         font-size: 2.5rem;
+        padding-right: 1rem;
     }
     .center .entry-word h1{
         font-size: 3rem;
