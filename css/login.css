@@ -84,6 +84,7 @@ input{
     border-radius: 60px;
     border: 2px solid yellow;
     color: yellow;
+    outline: none;
 }
 .login-button button:hover{
     color: rgb(0, 0, 0);
@@ -106,7 +107,9 @@ input{
         font-size: 1.3rem;
     }
     input{
+        width: 80vw;
         font-size: 1.2rem;
+        padding: .5rem;
     }
     .login-button button{
         min-width: 7rem;
@@ -118,7 +121,9 @@ input{
         font-size: 1.2rem;
     }
     input{
+        width: 80vw;
         font-size: 1.2rem;
+        padding: .5rem;
     }
     .login-button button{
         min-width: 5rem;
