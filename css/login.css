@@ -19,6 +19,7 @@ h1,h2,h3{
     font-weight: 900;
     line-height: 1;
     color: var(--clr-praimry);
+    font-size: 3rem;
 }
 body{
     background-image: url(../img/img-1.jpg);
@@ -42,7 +43,7 @@ body{
     flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
-    line-height: 3;
+
 }
 .inbut-field{
     display: flex;
@@ -60,11 +61,15 @@ input{
 }
 .forget-password{
     font-family: var(--ff-scendery);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    line-height: 2;
 }
 .forget-password a{
     text-decoration: none;
     color: yellow;
+}
+.forget-password p{
+    color: var(--clr-praimry);
 }
 .login-button{
     min-width: 10rem;
@@ -95,4 +100,28 @@ input{
 }
 .fa-google{
     color: var(--clr-praimry);
+}
+@media (max-width:768px) {
+    h1{
+        font-size: 1.3rem;
+    }
+    input{
+        font-size: 1.2rem;
+    }
+    .login-button button{
+        min-width: 7rem;
+        font-size: 1.4rem;
+    }
+}
+@media (max-width:480px){
+    h1{
+        font-size: 1.2rem;
+    }
+    input{
+        font-size: 1.2rem;
+    }
+    .login-button button{
+        min-width: 5rem;
+        font-size: 1rem;
+    }
 }
