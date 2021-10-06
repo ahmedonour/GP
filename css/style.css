@@ -246,6 +246,45 @@ footer{
 .contact-info{
     margin: 3rem;
 }
+@media (max-width: 1080px){
+    
+    section{
+        padding: 0;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    p{
+        font-size: 2rem;
+    }
+    .about-us{
+        width: 50vw;
+        height: 8rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex: 1px;
+        margin-top: 0;
+        margin-bottom: 20rem;
+    }
+    .center-area{
+        margin-top: 5rem;
+        margin-bottom: 10rem;
+    }
+    .center-area img{
+        width: 40rem ;
+
+    }
+   
+    footer , h1{
+        padding: 0;
+        font-size: 2rem;
+    }
+    .center-footer{
+        display: flex;
+        flex-direction: column;
+    }
+}
 @media (max-width: 920px) {
     section{
         padding: 0;
