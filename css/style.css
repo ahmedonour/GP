@@ -10,10 +10,10 @@ body{
     --ff-main : 'Overlock SC';
     --ff-secndary: 'Marvel';
     --ff-therd: 'Playfair Display';
-    --clr-black: #000;
-    --clr-s: #303030;
-    --clr-th: #ffe3f1;
-    --clr-fr: #00c9c8;
+    --clr-black: #877555;
+    --clr-s: #c4a775;
+    --clr-th: #ffeecb;
+    --clr-fr: #008cff;
 }
 .center-navbar{
     display: grid;
@@ -69,22 +69,24 @@ body{
         font-size: clamp(1rem, 5vw, 1.2rem);
     }
 }
+.blur{
+    width: 100%;
+    height: 100%;
+    
+
+}
 .baner{
     width: 100%;
     margin: 0;
     height: 100%;
     background-image: url(../img/img-1.jpg);
-	background-position: center center;
+	background-position: center;
 	background-size: cover;
 	height: 100vh;
     float: right;
     
 }
-.blur{
-    width: 100%;
-    height: 100%;
-   /* background-image: linear-gradient(230deg,rgb(4, 0, 255), #00ffea);*/
-}
+
 .center{
     position: absolute;
     top: 50%;
@@ -198,5 +200,139 @@ body{
     }
     .center .entry-word h1{
         font-size: 3rem;
+    }
+}
+section{
+    display: grid;
+    place-items: center;
+    width: 100%;
+    background: var(--clr-th);
+    height: auto;
+    padding: 10rem;
+}
+.center-area{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 200px;
+}
+.about-us{
+    width: 30rem;
+    height: 6rem;
+    display: grid;
+    place-items: center;
+    margin-top: 3rem;
+}
+.center-area img{
+    width: min(20rem);
+    margin: 3rem;
+}
+footer{
+    width: 100%;
+    padding: 1rem;
+    background: var(--clr-fr);
+    color: var(--clr-th);
+    display: grid;
+    place-items: center;
+}
+.center-footer{
+    display: flex;
+    flex-direction: row;
+}
+.contact-info{
+    margin: 3rem;
+}
+@media (max-width: 920px) {
+    section{
+        padding: 0;
+    }
+    .about-us{
+        width: 50vw;
+        height: 8rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex: 1px;
+        margin-top: 0;
+        margin-bottom: 5rem;
+    }
+    .center-area{
+        margin-top: 5rem;
+        margin-bottom: 10rem;
+    }
+    .center-area img{
+        width: 20rem ;
+
+    }
+   
+    footer{
+        padding: 0;
+    }
+    .center-footer{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 480px){
+    section{
+        padding: 0;
+    }
+    .about-us{
+        width: 50vw;
+        height: 8rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex: 1px;
+        margin-top: 0;
+        margin-bottom: 5rem;
+    }
+    .center-area{
+        margin-top: 5rem;
+        margin-bottom: 10rem;
+    }
+    .center-area img{
+        width: 20rem ;
+
+    }
+   
+    footer{
+        padding: 0;
+    }
+    .center-footer{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 720px) {
+    section{
+        padding: 0;
+    }
+    .about-us{
+        width: 50vw;
+        height: 8rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex: 1px;
+        margin-top: 0;
+        margin-bottom: 5rem;
+    }
+    .center-area{
+        margin-top: 5rem;
+        margin-bottom: 10rem;
+    }
+    .center-area img{
+        width: 20rem ;
+
+    }
+   
+    footer{
+        padding: 0;
+    }
+    .center-footer{
+        display: flex;
+        flex-direction: column;
     }
 }
