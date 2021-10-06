@@ -1,3 +1,18 @@
 Font for the title: Overlock SC
+Other Font's : Marvel , Playfair Display
 
+Color :
+- #000000;
+- #303030;
+- #ffe3f1;
+- #00c9c8;
 
+Dev Languge:
+We need to use JS and HTML,CSS,PHP.
+- JS : for anmetion.
+- HTML , CSS : for the desining.
+- PHP : for the backend and the API.
+
+CSS Layout type:
+- Flex Box
+- Grid

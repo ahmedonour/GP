@@ -29,6 +29,9 @@ body{
     display: grid;
     place-content: center;
 }
+.site-title a{
+    text-decoration: none;
+}
 .bg-black{
     width: 100vw;
     height: 100vh;
