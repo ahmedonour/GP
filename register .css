@@ -1,0 +1,207 @@
+/* register */
+
+position: relative;
+width: 1080px;
+height: 1100px;
+
+background: #FFEECB;
+
+
+/* NavBar */
+
+position: absolute;
+width: 970px;
+height: 59px;
+right: 55px;
+top: 30px;
+
+
+
+/* Onoreal Estate */
+
+position: absolute;
+width: 326px;
+height: 61px;
+left: -23px;
+top: -3px;
+
+font-family: Overlock SC;
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 61px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+color: #00C9C8;
+
+
+
+/* Rectangle 6 */
+
+position: absolute;
+width: 130px;
+height: 50px;
+left: 840px;
+top: 5px;
+
+background: #00C9C8;
+border-radius: 26px;
+
+
+/* Sing in */
+
+position: absolute;
+width: 77px;
+height: 29px;
+left: 867px;
+top: 16px;
+
+font-family: Overlock SC;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+
+/* fourm's */
+
+position: absolute;
+width: 748px;
+height: 741px;
+left: 165px;
+top: 245px;
+
+
+
+/* Your First Step */
+
+position: absolute;
+width: 343px;
+height: 67px;
+left: 368px;
+top: 245px;
+
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 67px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Rectangle 7 */
+
+position: absolute;
+width: 338px;
+height: 56px;
+left: 575px;
+top: 365px;
+
+background: #FFFFFF;
+border-radius: 31px;
+
+
+/* Rectangle 9 */
+
+position: absolute;
+width: 748px;
+height: 56px;
+left: 165px;
+top: 489px;
+
+background: #FFFFFF;
+border-radius: 31px;
+
+
+/* Rectangle 10 */
+
+position: absolute;
+width: 748px;
+height: 56px;
+left: 165px;
+top: 598px;
+
+background: #FFFFFF;
+border-radius: 31px;
+
+
+/* Rectangle 11 */
+
+position: absolute;
+width: 338px;
+height: 56px;
+left: 575px;
+top: 707px;
+
+background: #FFFFFF;
+border-radius: 31px;
+
+
+/* Rectangle 12 */
+
+position: absolute;
+width: 338px;
+height: 56px;
+left: 165px;
+top: 707px;
+
+background: #FFFFFF;
+border-radius: 31px;
+
+
+/* Rectangle 8 */
+
+position: absolute;
+width: 338px;
+height: 56px;
+left: 165px;
+top: 365px;
+
+background: #FFFFFF;
+border-radius: 31px;
+
+
+/* Register */
+
+position: absolute;
+width: 340px;
+height: 90px;
+left: 370px;
+top: 896px;
+
+background: #00C9C8;
+border-radius: 80px;
+
+
+/* Register */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+font-family: Overlock SC;
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 61px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+

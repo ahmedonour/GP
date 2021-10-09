@@ -1,0 +1,114 @@
+:root{
+    --clr-blue : #00C9C8;
+    --clr-white: #fff;
+    --clr-black: #000;
+    --clr-half-White: rgba(255, 255, 255, 0.5);
+    --ff-sec: 'Playfair Display';
+    --ff-main: 'Overlock SC';
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    width: 100wh;
+    background: linear-gradient(0deg, rgba(255, 238, 203, 0.9), rgba(255, 238, 203, 0.9)), url(../img/img-0.jpg), #FFEECB;
+}
+
+.NavBar{
+    margin: 2.5rem; 
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    font-family: var(--ff-main);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    color: var(--clr-blue);
+}
+.Login-btn button{
+    width: 130px;
+    height: 50px;
+    font-size: 24px;
+    font-family: var(--ff-main);
+    color: var(--clr-white);
+    background-color: var(--clr-blue);
+    border: none;
+    border-radius: 50px;
+}
+.Login-btn button:hover{
+    cursor: pointer;
+    color: var(--clr-blue);
+    background-color: rgba(0, 183, 255, 0);
+    border: 3px solid var(--clr-blue);
+    border-radius: 50px;
+}
+.form-center{
+    display: grid;
+    place-items: center;
+}
+.form-center form{
+    display: grid;
+    place-items: center;
+}
+form h1{
+    font-size: 60px;
+    font-family: var(--ff-sec);
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+.inputs input{
+    margin: 1rem;
+    padding: 15px;
+    height: 59px;
+    border: none;
+    border-radius: 60px;
+    background-color: var(--clr-blue);
+    color: var(--clr-white);
+    font-family: var(--ff-main);
+    font-size: 36px ;
+    outline: none;
+}
+.in-the-line input{
+    text-align: center;
+}
+.approvel{
+    display: flex;
+    font-family: var(--ff-main);
+    justify-self: start;
+    margin-left: 1rem;
+}
+.approvel input{
+    width: 20px;
+    height: 20px;
+    margin-right: 3px;
+}
+.approvel a{
+    color: var(--clr-blue);
+}
+.Finshed{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--ff-main);
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Finshed a{
+    color: var(--clr-blue);
+    text-align: center;
+    margin-bottom: 5px;
+}
+.Finshed button{
+    height: 60px;
+    width: 300px;
+    font-family: var(--ff-main);
+    font-size: 36px;
+    background-color: var(--clr-blue);
+    border: none;
+    border-radius: 60px;
+    color: var(--clr-white);
+}
