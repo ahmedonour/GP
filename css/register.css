@@ -14,7 +14,7 @@
 body{
     position: relative;
     width: 100wh;
-    background: linear-gradient(0deg, rgba(255, 238, 203, 0.9), rgba(255, 238, 203, 0.9)), url(../img/img-0.jpg), #FFEECB;
+    background: linear-gradient(0deg, rgba(255, 238, 203, 0.9), rgba(255, 238, 203, 0.7)), url(../img/img-0.jpg), #FFEECB;
 }
 
 .NavBar{
