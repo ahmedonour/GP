@@ -1,8 +1,8 @@
 :root{
-    --clr-blue : #00C9C8;
+    --clr-blue : #008cff;
     --clr-white: #fff;
     --clr-black: #000;
-    --clr-half-White: rgba(255, 255, 255, 0.5);
+    --clr-half-White: rgba(255, 255, 255, 0.6);
     --ff-sec: 'Playfair Display';
     --ff-main: 'Overlock SC';
 }
@@ -12,9 +12,10 @@
     box-sizing: border-box;
 }
 body{
+    padding: 1rem;
     position: relative;
-    width: 100wh;
-    background: linear-gradient(0deg, rgba(255, 238, 203, 0.9), rgba(255, 238, 203, 0.7)), url(../img/img-0.jpg), #FFEECB;
+    width: 100vw;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgb(0, 0, 0)), url(../img/img-0.jpg), #FFEECB;
 }
 
 .NavBar{
@@ -53,13 +54,17 @@ body{
     display: grid;
     place-items: center;
 }
-form h1{
+h1{
     font-size: 60px;
     font-family: var(--ff-sec);
+    color: #fff;
 }
 .inputs{
     display: flex;
     flex-direction: column;
+}
+::placeholder{
+    color: var(--clr-half-White);
 }
 .inputs input{
     margin: 1rem;
@@ -81,6 +86,7 @@ form h1{
     font-family: var(--ff-main);
     justify-self: start;
     margin-left: 1rem;
+    color: var(--clr-white);
 }
 .approvel input{
     width: 20px;
@@ -111,4 +117,23 @@ form h1{
     border: none;
     border-radius: 60px;
     color: var(--clr-white);
+}
+@media (max-width: 523px) {
+    .NavBar{
+        margin: 0.5rem;
+        font-size: 40px;
+    }
+    h1{
+        font-size: 40px;
+    }
+}
+@media (max-width: 469px) {
+    .NavBar{
+        margin: 0.2rem;
+        font-size: 30px;
+    }
+    h1{
+        font-size: 40px;
+        margin: 2rem;
+    }
 }

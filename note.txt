@@ -16,3 +16,22 @@ We need to use JS and HTML,CSS,PHP.
 CSS Layout type:
 - Flex Box
 - Grid
+
+
+Page's:
+1 - Landing Page
+2 - Login
+3 - Register
+4 - Choose What Type of opretion (Buy, Sell, Rent)
+    4.1 - If it buy:
+        - Buy Page
+    4.2 - If it sell:
+        - Sell Page
+    4.3 - if it Rent:
+        - Rent Page
+5 - Buy Page:
+    . Where?? (optional)
+    . The price? *
+    . Home specifications? (optional)
+    5.1 Result's
+    5.2 payment process
