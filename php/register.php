@@ -1,3 +1,2 @@
 <?php
-$sql = new PDO
 ?>
