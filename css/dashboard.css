@@ -28,6 +28,8 @@ h1{
     font-size: 1rem;
     font-weight: 500;
     color: var(--clr-blue);
+    background: var(--clr-white);
+    border-radius: 2rem;
 }
 #logout:hover{
     background-color: var(--clr-blue);
@@ -48,12 +50,15 @@ h1{
 .btn button{
     width: 10rem;
     height: 4rem;
-    border: none;
     font-size: 2rem;
     font-family: var(--ff-sec);
+    background: var(--clr-white);
+    border-radius: 2rem;
+    border: 2px solid var(--clr-blue);
+    margin: .6rem;
 }
 .btn button:hover{
-    background-color: var(--clr-blue);
+    background:var(--clr-blue);
     color: var(--clr-white);
     border-radius: 2rem;
 }
