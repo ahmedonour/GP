@@ -1,9 +1,10 @@
 :root{
     --ff-praimry: 'Marvel';
     --ff-scendery: 'Overlock SC';
+    --ff-therd: 'Playfair Display';
     --clr-praimry: #fff;
     --clr-black: rgba(0, 0, 0, 0.7);
-    --clr-royal: #405DE6;
+    --clr-royal: #008cff;
 }
 body,
 h1,
@@ -14,12 +15,12 @@ p
     margin: 0;  
     box-sizing: border-box;
 }
-h1,h2,h3{
-    font-family: var(--ff-scendery);
+h1,h2{
+    font-family: var(--ff-therd);
     font-weight: 900;
     line-height: 1;
-    color: var(--clr-praimry);
-    font-size: 3rem;
+    color: var(--clr-royal);
+    font-size: 4rem;
 }
 body{
     background-image: url(../img/img-1.jpg);
@@ -35,7 +36,12 @@ body{
 .bg-black{
     width: 100vw;
     height: 100vh;
-    background: #00000096;
+    background: #ffffff;
+}
+.login-title{
+    font-family: var(--ff-therd);
+    color: var(--clr-royal);
+    font-size: 2rem;
 }
 .login-form{
     position: absolute;
@@ -56,10 +62,11 @@ body{
 input{
     font-family: var(--ff-scendery);
     font-size: 1.5rem;
-    border: none;
+    border: 2px var(--clr-royal) solid;
     border-radius: 2rem;
     text-align: center;
     outline: none;
+    padding: .5rem;
     margin-top: 1rem;
 }
 .forget-password{
@@ -69,10 +76,10 @@ input{
 }
 .forget-password a{
     text-decoration: none;
-    color: yellow;
+    color: var(--clr-royal);
 }
 .forget-password p{
-    color: var(--clr-praimry);
+    color: var(--clr-black);
 }
 .login-button{
     min-width: 10rem;
@@ -85,13 +92,13 @@ input{
     font-family: var(--ff-scendery);
     background: none;
     border-radius: 60px;
-    border: 2px solid yellow;
-    color: yellow;
+    border: 2px solid var(--clr-royal);
+    color: var(--clr-royal);
     outline: none;
 }
 .login-button button:hover{
-    color: rgb(0, 0, 0);
-    background: yellow;
+    color: rgb(255, 255, 255);
+    background: var(--clr-royal);
     cursor: pointer;
     pointer-events: visibleFill;
 }
@@ -103,7 +110,7 @@ input{
     color: var(--clr-royal);
 }
 .fa-google{
-    color: var(--clr-praimry);
+    color: var(--clr-royal);
 }
 @media (max-width:768px) {
     h1{
