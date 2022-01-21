@@ -9,7 +9,7 @@ Color :
 
 Dev Languge:
 We need to use JS and HTML,CSS,PHP.
-- JS : for anmetion.
+- JS : for anmetion & and the backend and the map api.
 - HTML , CSS : for the desining.
 - PHP : for the backend and the API.
 
@@ -35,3 +35,10 @@ Page's:
     . Home specifications? (optional)
     5.1 Result's
     5.2 payment process
+
+
+
+Viste this site:
+
+Map api:
+https://developers.google.com/maps/documentation/javascript/overview#maps_map_simple-html
