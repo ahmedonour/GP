@@ -1,5 +1,6 @@
-function insert(){
-    const name = document.querySelector("#CommonName").value;
+       
+    const name = document.querySelector("#fname").value;       
+    function unsert() {
     const sqlite3 = require('sqlite3').verbose();
 
     let db = new sqlite3.Database('../DB/main.db');
@@ -16,3 +17,4 @@ function insert(){
     // close the database connection
     db.close();
 }
+unsert();
