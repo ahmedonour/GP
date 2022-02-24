@@ -1,12 +1,12 @@
        
     // const name = document.querySelector("#fname").value;       
-    const unsert = () => {
+    const Unsert = () => {
     const sqlite3 = require('sqlite3').verbose();
 
     let db = new sqlite3.Database('../DB/main.db');
 
     // insert one row into the langs table
-    db.run(`INSERT INTO langs(name) VALUES(?)`, function(err) {
+    db.run(`INSERT INTO langs(name) VALUES(?)`,['ahmedonour'], function(err) {
       if (err) {
         return console.log(err.message);
       }
@@ -17,7 +17,7 @@
     // close the database connection
     db.close();
 }
-unsert();
+Unsert();
 // const sqlite3 = require('sqlite3').verbose();
 
 // // open database in memory

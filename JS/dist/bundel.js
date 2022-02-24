@@ -1,41 +1,41 @@
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
        
-//     const name = document.querySelector("#fname").value;       
-//     const unsert = () => {
-//     const sqlite3 = require('sqlite3').verbose();
+    // const name = document.querySelector("#fname").value;       
+    const Unsert = () => {
+    const sqlite3 = require('sqlite3').verbose();
 
-//     let db = new sqlite3.Database('../DB/main.db');
+    let db = new sqlite3.Database('../DB/main.db');
 
-//     // insert one row into the langs table
-//     db.run(`INSERT INTO langs(name) VALUES(?)`, [name], function(err) {
-//       if (err) {
-//         return console.log(err.message);
-//       }
-//       // get the last insert id
-//       console.log(`A row has been inserted with rowid ${this.lastID}`);
-//     });
+    // insert one row into the langs table
+    db.run(`INSERT INTO langs(name) VALUES(?)`,['ahmedonour'], function(err) {
+      if (err) {
+        return console.log(err.message);
+      }
+      // get the last insert id
+      console.log(`A row has been inserted with rowid ${this.lastID}`);
+    });
 
-//     // close the database connection
-//     db.close();
-// }
-// unsert();
-const sqlite3 = require('sqlite3').verbose();
+    // close the database connection
+    db.close();
+}
+Unsert();
+// const sqlite3 = require('sqlite3').verbose();
 
-// open database in memory
-let db = new sqlite3.Database(':memory:', (err) => {
-  if (err) {
-    return console.error(err.message);
-  }
-  console.log('Connected to the in-memory SQlite database.');
-});
+// // open database in memory
+// let db = new sqlite3.Database(':memory:', (err) => {
+//   if (err) {
+//     return console.error(err.message);
+//   }
+//   console.log('Connected to the in-memory SQlite database.');
+// });
 
-// close the database connection
-db.close((err) => {
-  if (err) {
-    return console.error(err.message);
-  }
-  console.log('Close the database connection.');
-});
+// // close the database connection
+// db.close((err) => {
+//   if (err) {
+//     return console.error(err.message);
+//   }
+//   console.log('Close the database connection.');
+// });
 },{"sqlite3":76}],2:[function(require,module,exports){
 module.exports = exports = abbrev.abbrev = abbrev
 
